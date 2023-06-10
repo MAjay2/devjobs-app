@@ -126,12 +126,12 @@ function Searchbar({ onSearch, handleFullTimeOnly, onCheckboxChange }) {
 
         <FaFilter
           onClick={() => setOpenModal(true)}
-          className="block sm:hidden text-2xl fill-gray-500"
+          className="block sm:hidden mr-1 text-2xl fill-gray-500"
         />
 
         <MdSearch
           onClick={handleSearch}
-          className="block sm:hidden sm:block bg-indigo-500 rounded p-1 text-2xl w-10 h-8"
+          className="block sm:hidden sm:block bg-indigo-500 rounded p-1 mr-3 text-2xl w-10 h-8"
         />
 
         <Button

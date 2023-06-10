@@ -12,8 +12,8 @@ function Navbar({ handleSearch, handleFullTimeOnly }) {
 
   return (
     <div className="bg-mobile h-40 w-full bg-cover lg:bg-test md:bg-tablet">
-      <div className="flex justify-between items-center border lg:w-5/6">
-        <h1 className="text-4xl mr-10 text-white font-bold absolute top-10 left-40">
+      <div className="flex justify-between  items-center  lg:w-full">
+        <h1 className="text-4xl -ml-20   text-white font-bold absolute top-10 left-40">
           devjobs
         </h1>
         <svg width="17" height="24" xmlns="http://www.w3.org/2000/svg">
